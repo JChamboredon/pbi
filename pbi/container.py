@@ -1,8 +1,8 @@
 import copy
 import json
 
-from src.pbi.config import PbiConfig
-from src.pbi.filter import _PbiFilterObject
+from pbi.config import PbiConfig
+from pbi.filter import _PbiFilterObject
 
 
 class PbiContainer(dict, _PbiFilterObject):

@@ -1,4 +1,4 @@
-from src.pbi.object import _PbiObject
+from pbi.object import _PbiObject
 
 
 class Bookmark(dict, _PbiObject):

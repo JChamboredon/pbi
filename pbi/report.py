@@ -4,8 +4,8 @@ import os
 import pandas as pd
 import shutil
 
-from src.pbi.layout import PbiLayout
-from src.pbi.utils import run_ps_script
+from pbi.layout import PbiLayout
+from pbi.utils import run_ps_script
 
 
 class PbiReport:

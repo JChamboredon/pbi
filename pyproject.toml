@@ -9,13 +9,13 @@ authors = [{name = "Jeremy Chamboredon", email = "jeremy.chamboredon@normalesup.
 readme = "README.md"
 license = {file = "LICENSE"}
 classifiers = ["License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)"]
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
 #    "copy",
 #    "ctypes",
 #    "json",
 #    "os",
-#    "pandas",
+    "pandas",
 #    "secrets",
 #    "shutils",
 #    "subprocess",

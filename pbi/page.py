@@ -1,9 +1,9 @@
 import copy
 import json
 
-from src.pbi.config import PbiConfig
-from src.pbi.container import PbiContainer
-from src.pbi.filter import _PbiFilterObject
+from pbi.config import PbiConfig
+from pbi.container import PbiContainer
+from pbi.filter import _PbiFilterObject
 
 
 class PbiPage(dict, _PbiFilterObject):

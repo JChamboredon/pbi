@@ -1,4 +1,4 @@
-from src.pbi.utils import run_ps_script, message_box
+from pbi.utils import run_ps_script, message_box
 
 
 class PowerBI:

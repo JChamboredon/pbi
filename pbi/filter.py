@@ -1,7 +1,7 @@
 import copy
 import json
 
-from src.pbi.object import _PbiObject
+from pbi.object import _PbiObject
 
 
 class PbiFilter(dict, _PbiObject):

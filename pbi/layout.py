@@ -1,10 +1,10 @@
 import copy
 import json
 
-from src.pbi.bookmark import Bookmark
-from src.pbi.config import _PbiConfigObject
-from src.pbi.filter import _PbiFilterObject
-from src.pbi.page import PbiPage
+from pbi.bookmark import Bookmark
+from pbi.config import _PbiConfigObject
+from pbi.filter import _PbiFilterObject
+from pbi.page import PbiPage
 
 
 class PbiLayout(dict, _PbiFilterObject, _PbiConfigObject):
