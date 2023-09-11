@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-pbi"
+description = "Manipulate Power BI (.pbix) files"
+authors = [{name = "Jeremy Chamboredon", email = "jeremy.chamboredon@normalesup.org"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)"]
+version = "0.1.1"
+dependencies = [
+#    "copy",
+#    "ctypes",
+#    "json",
+#    "os",
+#    "pandas",
+#    "secrets",
+#    "shutils",
+#    "subprocess",
+#    "sys"
+]
+
+[project.urls]
+Home = "https://github.com/JChamboredon/pbi"
