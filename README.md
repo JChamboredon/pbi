@@ -6,6 +6,5 @@ It can also be used to support different environments: publishing a report still
 
 It can also ensure consistency in the reports by copying titles, logos, and headers from one page to another, or setting specific parameters across the workspace reports (activating the 'keep layer order' option for all visuals, or the search option for all dropdowns, etc.)
 
-More information is available in the pbi documentation.
-
+More information is available in the pbi wiki.
 Browse examples with screenshots to get a quick idea what you can do with pbi.
