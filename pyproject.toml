@@ -2,9 +2,6 @@
 requires = ["setuptools>=61.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
-[tool.setuptools]
-py-modules = ["pbi"]
-
 [project]
 name = "python-pbi"
 description = "Manipulate Power BI (.pbix) files"
@@ -12,7 +9,7 @@ authors = [{name = "Jeremy Chamboredon", email = "jeremy.chamboredon@normalesup.
 readme = "README.md"
 license = {file = "LICENSE"}
 classifiers = ["License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)"]
-version = "1.0.0"
+version = "1.0.1"
 dependencies = [
     "pandas"
 ]

@@ -1,4 +1,4 @@
-pbi is a Python library for accessing and updating PowerBI (.pbi) files.
+python-pbi is a Python library for accessing and updating PowerBI (.pbix) files.
 
 A typical use would be to download an existing report from the PowerBI service, and automatically alter some text, formatting, or some of the visuals, before publishing the updated report to the service once again.
 
