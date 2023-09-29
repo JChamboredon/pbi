@@ -105,7 +105,7 @@ class PbiPage(dict, _PbiFilterObject):
 
     def add_visuals(self, visual_lst=None):
         """
-        Adds the given visual to the page layout.
+        Adds the given visuals to the page layout.
         :param visual_lst: a list of Power BI containers or a Power BI container or None
         :return: the list of added visuals (with updated names)
         """
@@ -139,8 +139,6 @@ class PbiPage(dict, _PbiFilterObject):
         for bookmark in bookmark_list:
             visual_names_in_bookmarks.union(set(bookmark.get_target_visuals()))
         visuals_to_copy = original_page._get_visuals_from_name_set(visual_names_in_bookmarks)
-
-        
 
     def replace_visual_by_placeholder(self, visual, placeholder_visual):
         """
@@ -216,7 +214,7 @@ class PbiPage(dict, _PbiFilterObject):
 
     def remove_visuals_from_mobile(self):
         """
-        Removes all the visuals fro mthe mobile screen and returns number of updates
+        Removes all the visuals from the mobile screen and returns number of updates
         :return: the number of updates
         """
         res = 0
@@ -224,7 +222,7 @@ class PbiPage(dict, _PbiFilterObject):
             res += vis.remove_from_mobile()
         return res
 
-    def get_bookmarks(self):
+    def get_used_bookmark_names(self):
         """
         returns the set of bookmarks used in the visuals of the page
         :return: A set of bookmark names

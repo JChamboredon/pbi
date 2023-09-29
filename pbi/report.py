@@ -119,7 +119,6 @@ class PbiReport:
             new_connections_file.write(new_connection_str)
             new_connections_file.close()
 
-        # os.remove(self.temp_folder + '\\SecurityBindings')
         self._close()
 
     def get_page(self, page_name):

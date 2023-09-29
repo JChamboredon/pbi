@@ -14,7 +14,7 @@ class PbiContainer(dict, _PbiFilterObject):
         """
         Creates a PbiContainer object with all appropriate json strings converted as dictionaries or similar objects
         :param arg: list of arguments
-        :param kw: dictionary of key words
+        :param kw: dictionary of keywords
         """
         super().__init__(*arg, **kw)
         self['config'] = PbiConfig(self['config'])
@@ -134,16 +134,16 @@ class PbiContainer(dict, _PbiFilterObject):
         """
         container = copy.deepcopy(self)
         try:
-            self['filters'] = self.export_filters()
+            container['filters'] = self.export_filters()
         except KeyError:
             pass
         container['config'] = container['config'].export()
         try:
-            self['query'] = json.dumps(self['query'])
+            container['query'] = json.dumps(self['query'])
         except KeyError:
             pass
         try:
-            self['dataTransforms'] = json.dumps(self['dataTransforms'])
+            container['dataTransforms'] = json.dumps(self['dataTransforms'])
         except KeyError:
             pass
 
